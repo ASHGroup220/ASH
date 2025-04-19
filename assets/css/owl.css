@@ -96,12 +96,7 @@
   cursor: grab;
 }
 
-.main-banner .art {
-  font-size: 40px;
-  font-weight: bolder;
-  color: red;
-  animation: slidein 2s infinite;
-}
+
 #abo {
   animation: showup 3s infinite;
 }

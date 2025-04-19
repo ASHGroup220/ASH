@@ -438,7 +438,7 @@ Header Style
 
 .background-header {
   background-color: #fff;
-  height: 100px !important;
+  height: 130px !important;
   position: fixed !important;
   top: 0 !important;
   /* padding: 70px; */
@@ -454,7 +454,7 @@ Header Style
 .header-area {
   position: relative;
   background-color: #fff;
-  height: 100px;
+  height: 140px;
   z-index: 100;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
@@ -473,7 +473,23 @@ Header Style
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  display: inline-block;
+  display: block;
+  /* width: 170px;
+  height: 140px; */
+  width: 100%;
+  max-width: 170px;
+  height: 140px;
+}
+@media (max-width: 768px) {
+  .header-area .main-nav .logo {
+    max-width: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-area .main-nav .logo {
+    max-width: 100px;
+  }
 }
 
 .header-area .main-nav .logo h1 {
@@ -800,6 +816,9 @@ Banner Style
 --------------------------------------------- 
 */
 
+.main-banner {
+  width: 100%;
+}
 .main-banner .item {
   background-position: center center;
   background-repeat: no-repeat;
@@ -809,24 +828,26 @@ Banner Style
 }
 
 .main-banner .item-1 {
-  background-image: url(../images/banner-01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/world5.jpg);
+  /* brightness(50%); */
 }
 
-
 .main-banner .item .ash {
-  font-size: 62px;
   text-transform: uppercase;
   color: #fff;
   line-height: 72px;
   width: 100%;
   margin-bottom: 0px;
+  font-size: 40px;
+  font-weight: bolder;
 }
-
-
-
-
-
-
+.main-banner .art {
+  font-size: 22px;
+  font-weight: bolder;
+  color: rgb(255, 115, 0);
+  animation: slidein 2s infinite;
+}
 /* 
 ---------------------------------------------
 Featured Style
@@ -1456,8 +1477,6 @@ Single Page Style
   margin-top: 40px;
 }
 
-
-
 /* 
 ---------------------------------------------
 Contact Page Style
@@ -1638,7 +1657,6 @@ body {
   }
   .best-deal .tab-content img {
     padding: 0px;
-
   }
 
   .properties .item h6 {
