@@ -837,8 +837,9 @@ Banner Style
 .main-banner .item-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../images/world5.jpg);
-  /* brightness(50%); */
 }
+
+
 
 .main-banner .item .ash {
   text-transform: uppercase;
