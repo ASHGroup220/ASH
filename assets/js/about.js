@@ -467,7 +467,7 @@ document.addEventListener("DOMContentLoaded", function () {
     members.forEach((member, index) => {
         setTimeout(() => {
             member.classList.add("show");
-        }, index * 2000);
+        }, index * 1000);
     });
 });
 

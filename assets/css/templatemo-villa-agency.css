@@ -839,8 +839,6 @@ Banner Style
     url(../images/world5.jpg);
 }
 
-
-
 .main-banner .item .ash {
   text-transform: uppercase;
   color: #fff;
@@ -973,6 +971,26 @@ Video Style
 --------------------------------------------- 
 */
 
+.video-about {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.5)),
+    url(../images/world0.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 100px 0px 250px 0px;
+  position: relative;
+}
+
+.video-about .section-heading h2 {
+  color: #f35525;
+}
+
+.video-about .section-heading p {
+  width: 100%;
+  color: whitesmoke;
+  font-size: larger;
+}
+
 .video {
   background-image: url(../images/video-bg.jpg);
   background-repeat: no-repeat;
@@ -981,13 +999,12 @@ Video Style
   padding: 100px 0px 250px 0px;
   position: relative;
 }
+.video .section-heading h2 {
+  color: #fff;
+}
 
 .video-content {
   margin-top: -240px;
-}
-
-.video .section-heading h2 {
-  color: #fff;
 }
 
 .video-content .video-frame iframe {
@@ -1006,22 +1023,6 @@ Video Style
   transform: scale(1.1);
 }
 
-.video-content .video-frame a {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-26px, -26px);
-  width: 52px;
-  height: 52px;
-  background-color: #fff;
-  border-radius: 50%;
-  display: inline-block;
-  text-align: center;
-  line-height: 52px;
-  color: #f35525;
-  outline: 15px solid rgba(254, 85, 37, 0.5);
-  font-size: 18px;
-}
 
 /* 
 ---------------------------------------------
